@@ -8,10 +8,22 @@ This project serves as a minimal example of **Behavior-Driven Development (BDD)*
 
 The core of this project is built around the following technologies:
 
+* **Node.js  CommonJS 🟢:** The runtime environment, with configuration to handle both TypeScript and CommonJS modules: Version: v22.20.0.
+* **NPM :** The package manager used for dependency management: Version: 10.9.3
 * **TypeScript (TS) 🟦:** Used for writing the step definitions, utility logic, and enforcing strong typing.
 * **Cucumber.js 🥒:** The BDD framework used to define and execute the feature files.
-* **Node.js / CommonJS 🟢:** The runtime environment, with configuration to handle both TypeScript and CommonJS modules.
 * **ts-node:** Allows running TypeScript files directly without a separate compilation step.
+
+Environment & Dependency Tree
+
+node -v: v22.20.0
+npm -v:  10.9.3
+
+npm list cucumber-math-project
+├── @cucumber/cucumber@12.4.0
+├── @types/node@25.0.1
+├── ts-node@10.9.2
+└── typescript@5.9.3
 
 ## Project Dependencies 📦
 
