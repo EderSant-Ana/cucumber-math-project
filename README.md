@@ -14,17 +14,6 @@ The core of this project is built around the following technologies:
 * **Cucumber.js 🥒:** The BDD framework used to define and execute the feature files.
 * **ts-node:** Allows running TypeScript files directly without a separate compilation step.
 
-### Environment & Dependency Tree
-
-node -v: v22.20.0  
-npm -v:  10.9.3
-
-npm list cucumber-math-project  
-├── @cucumber/cucumber@12.4.0  
-├── @types/node@25.0.1  
-├── ts-node@10.9.2  
-└── typescript@5.9.3  
-
 ## Project Dependencies 📦
 
 The primary dependencies for running and developing the project are listed in `package.json`:
@@ -36,6 +25,17 @@ The primary dependencies for running and developing the project are listed in `p
 
 ### Development Dependencies
 * `@types/node`: TypeScript definitions for the Node.js runtime.
+
+### Environment & Dependency Tree
+
+node -v: v22.20.0  
+npm -v:  10.9.3
+
+npm list cucumber-math-project  
+├── @cucumber/cucumber@12.4.0  
+├── @types/node@25.0.1  
+├── ts-node@10.9.2  
+└── typescript@5.9.3  
 
 ## Project Structure 📁
 
