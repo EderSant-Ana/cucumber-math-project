@@ -66,9 +66,15 @@ This architecture cleanly separates the high-level behavioral specification (Fea
 ## How to Run the Project 🚀
 
 ### Prerequisites
-You need to have **Node.js** installed on your system.
+You need to have **Node.js** installed on your system, and git installed.
 
 ### Installation
+Clone the project from the GitHub repository.:
+
+```bash
+git clone https://github.com/EderSant-Ana/cucumber-math-project.git
+```
+
 First, install the project dependencies from the `package.json` file:
 
 ```bash
